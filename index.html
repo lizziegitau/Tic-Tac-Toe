@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.png">
+    <script src="index.js"></script>
 </head>
     
     <body class="background">
@@ -15,7 +17,7 @@
             <h1>Tic Tac Toe</h1>
         </section>
         <section class="display">
-            Player <span id="playerx">X</span>'s turn
+            Player <span class="display-player playerX">X</span>'s turn
         </section>
         <section class="container">
             <div class="tile" id="tile"></div>
@@ -33,16 +35,17 @@
             <br>
             <br>
             
-            <button class="reset">RESET</button>
+            <button id="reset">PLAY AGAIN</button>
+            <button><a href="about.html" class="help">Help</a></button>
         </section>
     </main>
     <script src="index.js"></script>
     
 </body>
-<footer>
+<!-- <footer>
     <p>TIC</p>
     <p>TAC</p>
     <p>TOE</p>
     <p>GAME</p>
-</footer>
+</footer> -->
 </html>

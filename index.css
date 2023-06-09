@@ -1,6 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-left: 30%;
     
@@ -9,7 +10,7 @@ body{
 
 }
 .background {
-    background-color: rgb(26, 1, 26)
+    background-color: rgb(8, 1, 8)
     
     
 
@@ -23,7 +24,7 @@ body{
 
 }
 .display{
-    color: rgb(25, 25, 157);
+    color: aqua;
     font-weight: bold;
 }
 #playerx{
@@ -31,13 +32,13 @@ body{
 }
 .container{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
     gap: 2px;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
     margin: 10px auto;
     border-radius: 10px;
-    border: 2px solid rgb(2, 29, 20);
+    /*  border: 2px solid rgb(44, 3, 72);*/
     box-shadow: 45px;
 }
 .tile {
@@ -45,17 +46,35 @@ body{
     display: flex;
     border-radius: 10px;
     margin: 3px;
+    min-width: 100px;
+    min-height: 100px;
     align-items: center;
     justify-content: center;
     font-size: 50px;
     cursor: pointer;
-}
-.reset{
-    background: rgba(162, 7, 144, 0.396);
-    color: bisque;
-    border-radius: 10px;
+    border: 2px solid rgb(183, 17, 45);
+} 
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 
 }
+.controls button{
+    background: rgba(162, 7, 144, 0.396);
+    color: bisque;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+    
+
+}
+
+
+   
+
 footer{
     color: aqua;
     font-style: italic;

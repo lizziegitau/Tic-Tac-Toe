@@ -30,21 +30,6 @@ body {
 .background figure image{
     height: 400px;
     width: 400px;
-    padding: 10px 10px;
-    width: 90%;
-    
-}
-
-.background h1{
-    color:purple;
-}
-.background h2{
-    color: indigo;
-}
-
-.background figure image{
-    height: 400px;
-    width: 400px;
 }
 
 @media (max-width: 768px) {
@@ -183,3 +168,8 @@ footer {
     font-size: 1.2em;
 
   }
+
+
+ 
+    
+  

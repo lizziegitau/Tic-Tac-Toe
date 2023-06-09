@@ -15,7 +15,44 @@ body {
     background-color: rgb(8, 1, 8);
     height: 100vh;
     padding-top: 1px;
+    padding: 10px 10px;
+    width: 90%;
+    
 }
+
+.background h1{
+    color:purple;
+}
+.background h2{
+    color: indigo;
+}
+
+.background figure image{
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width: 768px) {
+    .background {
+      background-color: rgb(3, 3, 48);
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .background {
+      background-color: rgb(41, 4, 4);
+      
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .background {
+      background-color: rgb(2, 17, 2);
+      text-align: left;
+    }
+  }
+  
 
 .title {
     font-style: italic;
@@ -107,3 +144,4 @@ footer {
     color: aqua;
     font-size: 40px;
 }
+
